@@ -208,7 +208,7 @@ h6 {
 	padding: 10px 40px;
 	border: 2px solid #909090;
 	border-radius: 7px;
-	display: flex;
+	/* display: flex; */
     margin: 0 auto;
 	font-size: 18px;
 }
@@ -643,8 +643,14 @@ h3 {
 .logo img{
 	max-width: 215px;
 	max-height: 130px;
-    margin-top: 17px;
-	margin: 30px;
+    width: calc(40% + 50px);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#member{
+	margin-left: auto;
+    margin-right: auto;
 }
 /* 列表 */
 .table_container {
