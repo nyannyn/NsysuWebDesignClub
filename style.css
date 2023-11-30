@@ -149,7 +149,7 @@ h6 {
 	position:relative
 }
 .section-padding {
-	padding:80px 0px;
+	padding:35px 0px;
 }
 .sectioner-header {
 	width:69%;
@@ -205,7 +205,7 @@ h6 {
 }
 .about-btn {
 	color: #909090;
-	padding: 10px 40px;
+	padding: 10px 110px;
 	border: 2px solid #909090;
 	border-radius: 7px;
 	/* display: flex; */
@@ -551,7 +551,7 @@ h3 {
 	font-size: 23px;
 }
 .section-padding {
-	padding: 40px 0px;
+	padding: 30px 0px;
 }
 .banner-text p {
 	margin: 25px 0px;
