@@ -57,6 +57,9 @@ h6 {
 .navbar .nav-item a:hover {
 	color: #01295c;
 }
+.dropdown-item{
+	color: #01295c;
+}
 .navbar .nav-link {
 	position: relative;
 	padding: 0;
