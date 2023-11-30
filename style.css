@@ -99,6 +99,14 @@ a.dropdown-item{
 .nav-scroll .active {
 	position: relative;
 }
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+	display: flex;
+	flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-direction: row;
+}
 .banner {
 	background: #123962;
 	background: linear-gradient(to left, #1C375B, #b9cfed);
