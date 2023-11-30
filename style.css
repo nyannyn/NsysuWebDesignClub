@@ -57,7 +57,7 @@ h6 {
 .navbar .nav-item a:hover {
 	color: #01295c;
 }
-.dropdown-item{
+a.dropdown-item{
 	color: #01295c;
 }
 .navbar .nav-link {
