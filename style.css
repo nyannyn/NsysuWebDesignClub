@@ -29,6 +29,9 @@ h6 {
 .black {
 	color:#000000;
 }
+.gray{
+	color: #bfbfbf;
+}
 .navbar {
 	position: fixed;
 	right: 0;
