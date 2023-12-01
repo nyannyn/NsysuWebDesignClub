@@ -829,7 +829,7 @@ th:last-child{
 	border-radius: 10px;
     color: #fff;
 }
-.collapse_title a{
+a.collapse_title{
 	text-decoration: none;
     color: black;
     font-weight: bold;
@@ -838,6 +838,9 @@ th:last-child{
     
 	margin: 0px;
     align-self: center;
+}
+a.collapse_title :hover{
+	text-decoration: none;
 }
 .collapse_content{
 	color: black;
