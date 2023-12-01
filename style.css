@@ -829,6 +829,21 @@ th:last-child{
 	border-radius: 10px;
     color: #fff;
 }
+.collapse_title a{
+	text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    
+	margin: 0px;
+    align-self: center;
+}
+.collapse_content{
+	color: black;
+    font-size: 10px;
+    align-self: center;
+}
 @media screen and (max-width: 768px) {
 	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
 		justify-content: flex-start;
