@@ -833,7 +833,6 @@ th:last-child{
 	}
 	.navbar-brand{
 		margin: 0px 10px;
-		margin-right: calc(50% - 50px);
 	}
 	.container {
 		flex-direction: column;
