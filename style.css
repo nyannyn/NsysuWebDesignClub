@@ -6,6 +6,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	overflow-x: hidden;
+	max-width: -webkit-fill-available;
 }
 a {
 	color:#01295c;
@@ -27,6 +28,9 @@ h6 {
 }
 .black {
 	color:#000000;
+}
+.gray{
+	color: #bfbfbf;
 }
 .navbar {
 	position: fixed;
@@ -57,6 +61,9 @@ h6 {
 .navbar .nav-item a:hover {
 	color: #01295c;
 }
+.nav-item a.dropdown-item{
+	color: #01295c;
+}
 .navbar .nav-link {
 	position: relative;
 	padding: 0;
@@ -84,6 +91,10 @@ h6 {
 	-webkit-transform: scale(1.03) !important;
 	transform: scale(1.03) !important;
 }
+.navbar-brand.navbar-logo b{
+	color: #01295c;
+	margin: 3px 0px 0px 0px;
+}
 .nav-scroll .navbar-toggler {
 	cursor: pointer;
 }
@@ -95,6 +106,14 @@ h6 {
 }
 .nav-scroll .active {
 	position: relative;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+	display: flex;
+	flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-direction: row;
 }
 .banner {
 	background: #123962;
@@ -149,7 +168,7 @@ h6 {
 	position:relative
 }
 .section-padding {
-	padding:80px 0px;
+	padding:35px 0px;
 }
 .sectioner-header {
 	width:69%;
@@ -205,7 +224,7 @@ h6 {
 }
 .about-btn {
 	color: #909090;
-	padding: 10px 40px;
+	padding: 10px 110px;
 	border: 2px solid #909090;
 	border-radius: 7px;
 	/* display: flex; */
@@ -551,7 +570,7 @@ h3 {
 	font-size: 23px;
 }
 .section-padding {
-	padding: 40px 0px;
+	padding: 30px 0px;
 }
 .banner-text p {
 	margin: 25px 0px;
@@ -810,7 +829,32 @@ th:last-child{
 	border-radius: 10px;
     color: #fff;
 }
+a.collapse_title{
+	text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 15px;
+    
+	margin: 0px;
+    align-self: center;
+}
+a.collapse_title :hover{
+	text-decoration: none;
+}
+.collapse_content{
+	color: black;
+    font-size: 10px;
+    align-self: center;
+}
 @media screen and (max-width: 768px) {
+	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+		justify-content: flex-start;
+		color: white;
+	}
+	.navbar-brand{
+		margin: 0px 10px;
+	}
 	.container {
 		flex-direction: column;
 	}
