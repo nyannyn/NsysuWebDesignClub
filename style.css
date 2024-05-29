@@ -43,6 +43,7 @@ h6 {
 	line-height: 50px;
 	background: transparent;
 	z-index: 1030;
+	background-color: #7a95bb;
 }
 .navbar .active {
 	color: #01295c !important;
